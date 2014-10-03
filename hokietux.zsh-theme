@@ -27,8 +27,6 @@ ZSH_THEME_GIT_PROMPT_RENAMED="%{$fg[magenta]%} ➜"
 ZSH_THEME_GIT_PROMPT_UNMERGED="%{$fg[yellow]%} ═"
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[cyan]%} ✭"
 
-MODE_INDICATOR="--NORMAL--"
-
 PROMPT='[%{$fg_bold[green]%}%~%{$fg_no_bold[white]%}]%{$fg_bold[red]%}➜$(git_prompt_info)%{$reset_color%}$(git_prompt_status)%{$reset_color%} $ '
-RPROMPT='$(vi_mode_prompt_info)${return_code}[%{$fg_no_bold[yellow]%}%h%{$reset_color%}][%*]'
+RPROMPT='${return_code}[%{$fg_no_bold[yellow]%}%h%{$reset_color%}][%*]'
 
