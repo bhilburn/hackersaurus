@@ -38,12 +38,6 @@ You then need to select it in your `~/.zshrc`:
 Note that *you cannot clone this repository into your `~/.oh-my-zsh/themes/` directory*.
 Oh-My-Zsh does not traverse subdirectories for themes, and will not find your theme.
 
-### History
-This theme was first announced [on my blog](http://bhilburn.org/the-hokietux-oh-my-zsh-theme/) in May of 2013.
-
-I submitted a pull-request to OMZ, but [Robby is no longer accepting new
-themes](https://github.com/robbyrussell/oh-my-zsh/pull/1804).
-
 ### Bugs / Contact
 
 If you have any requests or bug reports, please use the tracker in this Github
