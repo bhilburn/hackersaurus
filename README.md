@@ -24,19 +24,16 @@ theme, [powerlevel9k](https://github.com/bhilburn/powerlevel9k).**
 
 ### Installation
 
-To install this theme, drop the `.zsh-theme` file into your `.oh-my-zsh/themes`
-directory. A better form of installation is to clone this repository and then
-create a symlink in your 'themes' directory:
+To install this theme, clone this repository into your Oh-My-Zsh `custom/themes`
+directory.
 
-    $ git clone https://github.com/bhilburn/hackersaurus.git
-    $ ln -s hackersaurus.git/hackersaurus.zsh-theme ~/.oh-my-zsh/themes/hackersaurus.zsh-theme
+    $ cd ~/.oh-my-zsh/custom
+    $ mkdir themes              # if it doesn't already exist
+    $ git clone https://github.com/bhilburn/hackersaurus.git hackersaurus
 
-You then need to select it in your `~/.zshrc`:
+You then need to select this theme in your `~/.zshrc`:
 
-    ZSH_THEME="hackersaurus"
-
-Note that *you cannot clone this repository into your `~/.oh-my-zsh/themes/` directory*.
-Oh-My-Zsh does not traverse subdirectories for themes, and will not find your theme.
+    ZSH_THEME="hackersaurus/hackersaurus"
 
 ### Bugs / Contact
 
